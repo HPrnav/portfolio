@@ -12,8 +12,8 @@ function App() {
 
   return (
     <div>
-      <Navbar/>
       <div className='grid  gap-16'>
+      <Navbar/>
 
         <Element name='about'> <Hero /> </Element>
         <hr className='text-white' />
