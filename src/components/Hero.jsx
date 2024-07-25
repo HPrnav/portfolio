@@ -2,7 +2,7 @@ import React from 'react'
 import profilpic from '../assets/profilpic.png'
 import {TypeAnimation} from 'react-type-animation'
 import config from '../config'
-function Hero() {
+ function Hero() {
   return (
  
     <div className=' text-white max-w-[1200px] grid md:grid-cols-3 gap-10  place-items-center font-mono font-semibold mx-auto md:mt-14 text-xl md:pl-20 md:text-4xl'>
@@ -29,6 +29,7 @@ function Hero() {
             </div>
         </div>
 
+        
         <img className='animate-custom-bounce ' src={profilpic} alt="" width={300} height={300}/>
     </div>
  

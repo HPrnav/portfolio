@@ -1,7 +1,7 @@
 import React from 'react'
 import config from '../config'
 import Section_title from './Section_title'
-
+ 
 import {
   DiJavascript1,
   DiReact,
@@ -35,6 +35,7 @@ function Skills() {
         </ul>
 
       </div >
+
 
       <div className='diaplay flex gap-6 justify-end  '>
 

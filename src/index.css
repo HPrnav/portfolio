@@ -7,7 +7,7 @@
 
 body {
   font-family: "Space Grotesk", sans-serif;
-  background: linear-gradient(135deg, #282727, #201e1e);
+  background:   radial-gradient(rgb(94, 94, 94), rgb(26, 26, 26));
   background-size: cover;
   background-repeat: none;
 }
@@ -27,10 +27,4 @@ p{
   @apply text-xl tracking-tight leading-relaxed
 }
 
-.shiny-effect {
-  position: absolute;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 1;
-  background: radial-gradient(circle, rgba(70, 161, 181, 0.2), transparent 70%);
-}
+ 
