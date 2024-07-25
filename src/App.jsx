@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import './App.css'
+ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Skills from './components/Skills'
@@ -12,7 +11,7 @@ function App() {
 
   return (
     <div>
-      <div className='grid  gap-16'>
+      <div className=' overflow-x-hidden flex flex-col gap-16'>
       <Navbar/>
 
         <Element name='about'> <Hero /> </Element>

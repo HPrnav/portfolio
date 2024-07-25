@@ -48,11 +48,11 @@ function Contact() {
     <>
     <Section_title title={'contact'}/>
     <form onSubmit={send_mail}>
-        <div className='max-w-[600px] p-4 mx-auto flex flex-col gap-2 items-start border border-yellow-300'> 
+        <div className='max-w-[600px] sm:w-screen md:w-full p-4 mx-auto flex flex-col gap-2 items-start border border-yellow-300'> 
             <p className='text-sm text-gray-400'># FILL THE FORM AND CONTACT VIA MAIL</p>
-            <div className='flex gap-10 w-full' >
-                <input className='bg-slate-300 border rounded-md pl-5 w-96 ' type="email"name='email' placeholder='enter your e-mail' />
-                <input className='bg-slate-300 border rounded-md pl-5' type="text" name='name' placeholder='yourname'/>
+            <div className='grid md:flex gap-5 w-full ' >
+                <input className='bg-slate-300 border rounded-md w-full   ' type="email"name='email' placeholder='enter your e-mail' />
+                <input className='bg-slate-300 border rounded-md w-full md:w-3/5' type="text" name='name' placeholder='yourname'/>
             </div>
             <input className=' w-full h-36 bg-slate-300 border rounded-md pl-5' type="text" name='message' placeholder='enter your message' />
             <button type='submit' className='w-full border border-red-700 rounded-lg hover:bg-red-600 hover:text-yellow-500 bg-yellow-400 font-bold '>SEND MAIL</button>
@@ -61,7 +61,7 @@ function Contact() {
     </form>
     </>
   )
-}
+}  
 
 export default Contact
 

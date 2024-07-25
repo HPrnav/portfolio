@@ -8,7 +8,7 @@
 body {
   font-family: "Space Grotesk", sans-serif;
   background:   radial-gradient(rgb(94, 94, 94), rgb(26, 26, 26));
-  background-size: cover;
+  background-size:cover;
   background-repeat: none;
 }
 
